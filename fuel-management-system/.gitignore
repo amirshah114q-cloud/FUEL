@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Build output
+backend/dist/
+
+# Environment (never commit secrets)
+.env
+backend/.env
+
+# Uploaded slip files (runtime data)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Logs & OS files
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/

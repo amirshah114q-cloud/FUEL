@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Fleet Fuel Manager",
+    "slug": "fleet-fuel-manager",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "fleetfuel",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "splash": {
+      "backgroundColor": "#1C3F60",
+      "resizeMode": "contain"
+    },
+    "android": {
+      "package": "com.fleet.fuelmanager",
+      "permissions": ["CAMERA", "READ_EXTERNAL_STORAGE"]
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "Fleet Fuel Manager needs camera access to photograph fuel slips."
+        }
+      ],
+      "expo-document-picker"
+    ]
+  }
+}
